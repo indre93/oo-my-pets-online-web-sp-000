@@ -72,7 +72,7 @@ class Owner
     self.pets.each do |type, pet|
       type.pet.count
       puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
-    end 
+    end
   end
 
 end
