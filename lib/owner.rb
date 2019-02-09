@@ -63,7 +63,7 @@ class Owner
     self.pets.clear
     self.pets.each do |type, pet|
       pet.each do |name, mood|
-        name.mood = "nervous"
+        name.mood == "nervous"
       end
     end
   end
