@@ -40,7 +40,7 @@ class Owner
 
   def walk_dogs
     dog.mood = @pets
-    
+
   end
 
   def play_with_cats
