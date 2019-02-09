@@ -62,7 +62,7 @@ class Owner
   def sell_pets
     self.pets.clear
     pets = self.pets
-      
+
   end
 
   def list_pets
