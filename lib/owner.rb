@@ -70,7 +70,7 @@ class Owner
 
   def list_pets
     @@all
-      puts "I have #{} fish, #{} dog(s), and #{} cat(s)."
+    "I have #{} fish, #{} dog(s), and #{} cat(s)."
   end
 
 end
