@@ -64,6 +64,7 @@ class Owner
     all = []
     self.pets.each do |type, mood|
       all << type
+      all.each { |o| o.mood = "nervous" }
     end
   end
 
