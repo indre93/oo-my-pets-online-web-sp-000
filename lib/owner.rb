@@ -61,10 +61,8 @@ class Owner
 
   def sell_pets
     self.pets.clear
-    all = []
     self.pets.each do |type, pets|
-      all << pets
-      all.each { |o| o.mood = "nervous" }
+      pets.each { |o| o.mood = "nervous" }
     end
   end
 
