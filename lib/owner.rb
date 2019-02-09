@@ -39,7 +39,7 @@ class Owner
   end
 
   def walk_dogs
-    dogs.mood = @pets
+    mood = Dog.new(mood)
 
   end
 
