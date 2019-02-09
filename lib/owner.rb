@@ -62,9 +62,7 @@ class Owner
   def sell_pets
     self.pets.each do |type, pets|
       pets.each do |name, mood|
-        if self.pets.empty?
-          pets.mood = "nervous"
-        end
+        self.reset_all && pets.mood = "nervous"
       end
     end
   end
