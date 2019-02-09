@@ -43,7 +43,6 @@ class Owner
     dogs.each do |dog, mood|
       dog.mood = "happy"
     end
-
   end
 
   def play_with_cats
