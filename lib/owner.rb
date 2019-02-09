@@ -63,8 +63,8 @@ class Owner
     self.pets.clear
     pets = self.pets
     pets.each do |pet, mood|
-      pets.mood = "nervous"}
-
+      pets.mood = "nervous"
+    end 
   end
 
   def list_pets
