@@ -60,7 +60,8 @@ class Owner
   end
 
   def sell_pets
-
+    all_pets = []
+    all_pets = self.pets.each {|name, mood| name }
   end
 
   def list_pets
