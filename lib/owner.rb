@@ -63,7 +63,7 @@ class Owner
     self.pets.clear
     all = self.pets[:fishes, :cats, :dogs]
     all.each do |type, mood|
-      pet.mood = "nervous"
+      a;;.mood = "nervous"
     end
   end
 
