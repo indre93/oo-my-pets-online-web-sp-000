@@ -60,8 +60,13 @@ class Owner
   end
 
   def sell_pets
-    all_pets = []
-    all_pets = self.pets.each {|name, mood| name }
+    self.pets.each do |type, pets|
+      pets.each do |name, mood|
+        if self.pets.empty?
+          pets.mood = "nervous"
+        end
+      end
+    end
   end
 
   def list_pets
