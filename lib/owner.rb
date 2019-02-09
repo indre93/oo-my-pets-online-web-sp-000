@@ -60,7 +60,7 @@ class Owner
   end
 
   def sell_pets
-    @@all.clear
+    self.pets.clear
   end
 
   def list_pets
